@@ -49,3 +49,22 @@ public class Operaciones {
       resultado = Math.tanh(angulo_en_radianes);
       return resultado;
   }
+  
+  public void menu(){
+
+      System.out.println("Escoge una función: ");
+    
+      System.out.println("1) cos α");
+      System.out.println("2) sin α");
+      System.out.println("3) tan α");
+
+      System.out.println("4) arccos α");
+      System.out.println("5) arcsin α");
+      System.out.println("6) arctan α");
+    
+      System.out.println("7) cosh α");
+      System.out.println("8) sinh α")
+      System.out.println("9) tanh α");
+    
+  }
+}
